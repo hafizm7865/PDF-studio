@@ -1,7 +1,7 @@
 // PDF Studio service worker: saves the app on the device so it opens offline.
 // When you upload a new version of index.html, change the number below (v1 -> v2)
 // so every device picks up the new version.
-const CACHE = 'pdf-studio-v1';
+const CACHE = 'pdf-studio-v2';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', (event) => {
